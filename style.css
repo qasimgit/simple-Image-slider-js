@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
 }
 
 #container {
@@ -24,3 +25,10 @@
 }
 
 
+@media (max-width:500px) {
+    #container h1 {
+        display: none
+        ;
+    }
+
+}
